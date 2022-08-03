@@ -19,24 +19,44 @@
     align-items: center;
     /*border-bottom: 5px solid white;
     border-length:50%;*/
+    position: relative;
 }
 
 ul {
     display: flex;
+    flex-grow:1;
     gap: 50px;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
     color: white;
     font-size: 20px;
+    font-weight: 600;
     cursor: pointer;
     border-bottom: 3px solid white;
     padding-bottom: 50px;
     margin-top: 50px;
-    margin-right: 100px;
+    margin-right: 500px;
 }
 
 .logo-image{
     margin-left: 50px;
     margin-top: 20px;
+    width: 140px;
+    height: 50px;
+}
+
+
+.contactUs{
+    display: flex;
+    gap: 5px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 250px;S
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .big-heading{
@@ -56,6 +76,7 @@ ul {
     font-weight: 600;
     margin-top: 60px;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .puzzle-card{
